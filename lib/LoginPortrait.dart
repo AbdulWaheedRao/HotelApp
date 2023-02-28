@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hotelapp/dashboard.dart';
-import 'package:flutter_hotelapp/loginscreen.dart';
+import 'package:flutter_hotelapp/profileScreen.dart';
 
-class SignUp extends StatefulWidget {
-  const SignUp({super.key});
+class LoginPortrait extends StatefulWidget {
+  const LoginPortrait({super.key});
 
   @override
-  State<SignUp> createState() => _SignUpState();
+  State<LoginPortrait> createState() => _LoginPortraitState();
 }
 
-class _SignUpState extends State<SignUp> {
+class _LoginPortraitState extends State<LoginPortrait> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      backgroundColor: Colors.white60,
+      backgroundColor: Colors.white38,
       body: Center(
         child: Column(children: [
           Expanded(flex: 1, child: SizedBox()),
